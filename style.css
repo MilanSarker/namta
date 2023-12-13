@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    /* align-items: center; */
+    background: linear-gradient(19deg, rgba(117,127,144,8.588673) 12%, rgb(115 115 225) 50%, rgb(93 156 169) 80%);
+}
+.inputValue::placeholder{
+    color: blue;
+}
+button{
+   
+}
+button:hover{
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+
+p{
+    margin-top: 10px;
+    color: rgb(238, 216, 14);
+    font-size: 35px;
+   
+}
